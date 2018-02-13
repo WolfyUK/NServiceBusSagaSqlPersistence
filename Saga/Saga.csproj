@@ -51,6 +51,9 @@
     <PackageReference Include="nservicebus.persistence.sql">
       <Version>3.0.4</Version>
     </PackageReference>
+    <PackageReference Include="NServiceBus.Persistence.Sql.MsBuild">
+      <Version>3.0.4</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
